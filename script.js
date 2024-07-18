@@ -15,3 +15,14 @@ function distance(){
     var m=km*0.62137
     document.getElementById("mi").value=m
 }
+
+
+function welcome(){
+    var name=prompt("Enter your name");
+    if(name==="ann" || "Ann" || "ann maria sunny"){
+        alert("If there was a chance, i still miss you")
+    }
+    else{
+        alert("Welcome "+name)
+    }
+}
