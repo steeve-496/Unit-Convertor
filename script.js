@@ -18,8 +18,18 @@ function distance(){
 
 
 function welcome(){
-    var name=prompt("Enter your name")
-    if(name==="ann" || "Ann" || "ann maria sunny"){
+    
+    let key=true
+    while(key){
+        var name=prompt("Enter your name");
+        if(!name){
+            alert("Enter your name to proceed")
+        }
+    if(name){
+        key=false
+    }
+    }
+    if(name==="ann" || name === "Ann" || name === "ann maria sunny" ||name === "Ann Maria Sunny"){
         alert("If there was a chance, i still miss you")
     }
     else{
