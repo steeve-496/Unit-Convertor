@@ -1,0 +1,129 @@
+body{
+    margin:10px;
+    background-color: black;
+}
+
+
+#home{
+    margin-top:-1;
+    margin-left: -1;
+    margin-right: -1;
+    padding-bottom:2cm;
+    background-color:rgb(95,52,231);
+}
+
+
+header{
+    font-size:30px;
+    color:rgb(255, 102, 255);
+    float:left;
+    margin-top:20px;
+    padding-left:2cm;
+}
+
+nav{
+    float:right;
+    padding-right: 1cm;
+}
+
+nav button{
+    color:lightgray;
+    background-color: rgb(100, 0, 100);
+    margin:10px;
+    padding:10px;
+    border-radius:1mm;
+    font-size:20px;
+}
+
+nav button:hover{
+    color:white;
+    font-weight:30px;
+    background-color:purple;
+    border-radius: 3mm;
+}
+
+#temperature,#weight,#distance{
+    margin:auto;
+    border:2px solid white;
+    background-color: white;
+    width:600px;
+    height:400px;
+    margin-top:25px;
+    margin-bottom:25px;
+    display:flex;
+    
+}
+
+figure{
+    float:left;
+    width: 200px;
+}
+
+figure img{
+    width: 200px;
+}
+
+figcaption{
+    color:black;
+    font-size:17px;
+    text-align:center;
+}
+
+fieldset{
+    margin-top:30px;
+    margin-right: 10px;
+}
+
+#all-conversion-sections button{
+    font-size:20px;
+    border:2px transparent;
+    border-radius:40px;
+    height:auto;
+    width: auto;
+    background-color:lightgreen;
+    padding-left: 15px;
+    padding-right:15px;
+}
+
+#all-conversion-sections button:hover{
+    color:rgb(255, 255, 255);
+    font-weight:20px;
+    background-color:rgb(111, 255, 130);
+    border-radius: 40px;
+}
+
+#temperature{
+    border-top:20px solid green;
+    border-radius:10px;
+}
+
+#weight{
+    border-top:20px solid coral;
+    border-radius:10px;
+}
+
+#distance{
+    border-top:20px solid cyan;
+    border-radius:10px;
+}
+
+#go-home img{
+    border:2px solid white;
+    background-color:white;
+    margin:auto;
+    width:auto;
+}
+#go-home{
+    margin:auto;
+    width:600px;
+    align-items:center;
+}
+footer{
+    background-color:rgb(95,52,231);
+    color:white;
+    padding:10px;
+    text-align:center;
+    margin:auto;
+    border-radius:20px;
+    
+}
